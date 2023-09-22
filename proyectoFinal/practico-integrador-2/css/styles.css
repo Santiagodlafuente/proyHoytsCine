@@ -1,0 +1,25 @@
+
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lang-tit{
+    justify-content: center;
+    font-size: 46px;
+}
+
+.lang-imgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+} 

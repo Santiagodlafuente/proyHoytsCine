@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: 'roboto';
+}
+    
+body{
+    background: linear-gradient(45deg, rgb(48, 1, 1) 10%, rgb(130, 3, 3) 85%, rgb(255, 0, 0)5%);
+}
+
+/*barra de navegacion*/  
+.container-fluid{
+    color: black;
+}
+
+.logoInicio img{
+    width: fit-content;
+}
+
+.inicioNomb{
+    color: red !important;
+}
+
+.ingresar{
+    color: red !important;
+    font-size: 1.02rem !important;
+}
+
+.ingresar:hover{
+    color: red !important;
+    letter-spacing: 1px !important;
+}
+.input::placeholder{
+    font-size: 0.8rem;
+    text-align: center !important;
+    letter-spacing: 2px;
+}
+
+.input:focus{
+    box-shadow: 0px 1px 2px 1px red !important;
+}
+
+.btnSearch{
+    border: 1px solid rgb(185, 182, 182) !important;
+    color: red !important;
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.btnSearch:hover{
+    background-color: red !important;
+    border: none !important;
+    color: white !important;
+}
+
+/*imagen de fondo*/
+.btns {
+    padding-right: 10px;
+}
+
+.img {
+    padding-left: 10px;
+}
+
+.imagen-portada {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+.seccionUno{
+    margin: 30px 50px;
+}
+
+/*seccion elegir el plan*/
+.elegiplan{
+    height: 200px;
+    margin: 0 60px;
+}
+
+.elegiplan-titulo{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    font-size: 2.5em;
+}
+
+.elegiplan-preg{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.tarj{
+    padding-bottom: 80px;
+}
+
+/*tarjetas de plan*/
+
+.suscribir-tarjeta{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    margin: 20px 50px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.08vw;
+}
+
+.suscribir-tarjeta:hover{
+    border: solid 3px rgb(255, 255, 255);
+    background-color:  #02021b;
+}
+
+.suscribir-tarjeta a{
+    text-decoration: none !important ;  
+    color: red !important;
+}
+
+

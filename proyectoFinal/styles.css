@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    font-family: 'roboto';
+}
+
+/* navbar */
+
+.container-fluid{
+    color: black;
+}
+
+.logoInicio img{
+    width: fit-content;
+}
+
+.inicioNomb{
+    color: red !important;
+}
+
+.irMapa{
+    color: white !important;
+    background-color: rgb(218, 82, 82) !important;
+    border: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.irMapa a{
+    text-decoration: none !important;
+    color: white !important;
+    text-decoration-line: none !important;
+}
+
+.ingresar{
+    color: red !important;
+    font-size: 1.02rem !important;
+    background-color: white !important;
+    border: 1px red solid !important;
+}
+
+.ingresar:hover{
+    color: red !important;
+    text-transform: uppercase !important;
+}
+
+.input::placeholder{
+    font-size: 0.8rem;
+    text-align: center !important;
+    letter-spacing: 2px;
+}
+
+.input:focus{
+    box-shadow: 0px 1px 2px 1px red !important;
+}
+
+.btnSearch{
+    border: 1px solid rgb(185, 182, 182) !important;
+    color: red !important;
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.btnSearch:hover{
+    background-color: red !important;
+    border: none !important;
+    color: white !important;
+}
+
+/* carrucel */
+
+.carrusel{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.carousel{
+    width: 80% !important;
+    height: auto !important;
+}
+
+/* peliculas */
+
+.text{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+}
+.footer-contenedor{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.f-copi{
+    
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.f-rd-padre {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f-rd-padre img{
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
